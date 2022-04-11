@@ -20,7 +20,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("register.fxml"));
         primaryStage.setTitle("Registration Example");
         primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+        //primaryStage.show();
     }
 
     private void initDirectory() {
